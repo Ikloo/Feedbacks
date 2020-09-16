@@ -17,6 +17,12 @@ public class Haptics {
         case light
         case medium
         case heavy
+
+        @available(iOS 13.0, *)
+        case soft
+        
+        @available(iOS 13.0, *)
+        case rigid
     }
 
     public enum Notification {

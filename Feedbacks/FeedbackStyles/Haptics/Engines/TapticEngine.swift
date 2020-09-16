@@ -8,16 +8,42 @@
 import UIKit
 
 final class TapticEngine: HapticsEngine {
-    private typealias ImpactGenerator = (light: UIImpactFeedbackGenerator, medium: UIImpactFeedbackGenerator, heavy: UIImpactFeedbackGenerator)
+    private struct ImpactGenerator {
+        let impact: Haptics.Impact
+        private let generator: UIImpactFeedbackGenerator
 
-    @available(iOS 10.0, *)
+        private init(impact: Haptics.Impact, generator: UIImpactFeedbackGenerator) {
+            self.impact = impact
+            self.generator = generator
+        }
+
+        func prepare() {
+            generator.prepare()
+        }
+
+        func impactOccurred() {
+            generator.impactOccurred()
+        }
+
+        static func heavy() -> Self { ImpactGenerator(impact: .heavy, generator: .init(style: .heavy)) }
+        static func medium() -> Self { ImpactGenerator(impact: .medium, generator: .init(style: .medium)) }
+        static func light() -> Self { ImpactGenerator(impact: .light, generator: .init(style: .light)) }
+
+        @available(iOS 13.0, *)
+        static func soft() -> Self { ImpactGenerator(impact: .soft, generator: .init(style: .soft)) }
+        @available(iOS 13.0, *)
+        static func rigid() -> Self { ImpactGenerator(impact: .rigid, generator: .init(style: .rigid)) }
+    }
+
     private lazy var notifictionGenerator = UINotificationFeedbackGenerator()
-    @available(iOS 10.0, *)
     private lazy var selectionGenerator = UISelectionFeedbackGenerator()
-    @available(iOS 10.0, *)
-    private lazy var impactGenerator: ImpactGenerator = (UIImpactFeedbackGenerator(style: .light),
-                                                         UIImpactFeedbackGenerator(style: .medium),
-                                                         UIImpactFeedbackGenerator(style: .heavy))
+    private lazy var impactGenerators: [ImpactGenerator] = {
+        var generators: [ImpactGenerator] = [.heavy(), .medium(), .light()]
+        if #available(iOS 13.0, *) {
+            generators.append(contentsOf: [.soft(), .rigid()])
+        }
+        return generators
+    }()
 
     func prepare() {
         //        guard #available(iOS 10, *) else {
@@ -27,9 +53,7 @@ final class TapticEngine: HapticsEngine {
 
         notifictionGenerator.prepare()
         selectionGenerator.prepare()
-        impactGenerator.heavy.prepare()
-        impactGenerator.medium.prepare()
-        impactGenerator.light.prepare()
+        impactGenerators.forEach { $0.prepare() }
     }
 
     func generate(_ notification: Haptics.Notification) {
@@ -57,14 +81,12 @@ final class TapticEngine: HapticsEngine {
         //            return
         //        }
 
-        switch impact {
-        case .light:
-            impactGenerator.light.impactOccurred()
-        case .medium:
-            impactGenerator.medium.impactOccurred()
-        case .heavy:
-            impactGenerator.heavy.impactOccurred()
+        guard let generator = impactGenerators.first(where: { $0.impact == impact }) else {
+            Logger.log("Selected impact \(impact) not available", .warning, group: .api)
+            return
         }
+
+        generator.impactOccurred()
         prepare()
     }
 }
