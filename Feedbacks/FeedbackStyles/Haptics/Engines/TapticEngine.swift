@@ -82,7 +82,7 @@ final class TapticEngine: HapticsEngine {
         //        }
 
         guard let generator = impactGenerators.first(where: { $0.impact == impact }) else {
-            Logger.log("Selected impact \(impact) not available", .warning, group: .api)
+//            Logger.log("Selected impact \(impact) not available", .warning, group: .api)
             return
         }
 
