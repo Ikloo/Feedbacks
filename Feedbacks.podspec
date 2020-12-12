@@ -16,7 +16,7 @@ Pod::Spec.new do |spec|
   #
 
   spec.name         = "Feedbacks"
-  spec.version      = "0.1.0"
+  spec.version      = "0.2.0"
   spec.summary      = "Feedbacks is an easy way to show UI/UX feedback."
 
   # This description is used to generate tags and improve search results.
@@ -66,7 +66,7 @@ Feedbacks is an easy way to show UI/UX feedback.
   spec.platform     = :ios
   spec.platform     = :ios, "10.0"
   spec.ios.deployment_target = "10.0"
-  spec.swift_version = "4.2"
+  spec.swift_version = "5.2"
 
   #  When using multiple platforms
   # spec.ios.deployment_target = "5.0"
