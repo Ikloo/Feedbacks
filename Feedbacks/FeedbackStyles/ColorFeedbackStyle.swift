@@ -8,7 +8,7 @@
 import UIKit
 
 public struct ColorFeedbackStyle: FeedbackStyle {
-    enum Style {
+    public enum Style {
         case border(CGFloat), background
     }
 
@@ -16,7 +16,7 @@ public struct ColorFeedbackStyle: FeedbackStyle {
     private let style: Style
     private let backToDefault: Bool
 
-    init(color: UIColor, style: Style, backToDefault: Bool) {
+    public init(color: UIColor, style: Style, backToDefault: Bool) {
         self.color = color
         self.style = style
         self.backToDefault = backToDefault

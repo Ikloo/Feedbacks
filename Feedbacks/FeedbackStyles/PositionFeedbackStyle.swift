@@ -16,7 +16,7 @@ public struct PositionFeedbackStyle: FeedbackStyle {
     private let repeatsCount: Int
     private let axis: Axis
 
-    init(offset: CGFloat, repeatsCount: Int, axis: Axis) {
+    public init(offset: CGFloat, repeatsCount: Int, axis: Axis) {
         self.offset = offset
         self.repeatsCount = repeatsCount
         self.axis = axis

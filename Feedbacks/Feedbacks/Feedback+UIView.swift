@@ -46,7 +46,11 @@ public extension Feedback where Base: UIView {
     }
 
     // MARK: ColorFeedbackStyle
-    func background(_ color: UIColor) {
-        custom(ColorFeedbackStyle(color: color, style: .background, backToDefault: false))
+    func background(_ color: UIColor, backToDefault: Bool = false) {
+        custom(ColorFeedbackStyle(color: color, style: .background, backToDefault: backToDefault))
+    }
+    
+    func border(_ color: UIColor, width: CGFloat, backToDefault: Bool = false) {
+        custom(ColorFeedbackStyle(color: color, style: .border(width), backToDefault: backToDefault))
     }
 }
