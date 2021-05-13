@@ -14,7 +14,7 @@ $ pod try Feedbacks
 ## Requirements
 
 - iOS 10.0+
-- Xcode 11.0+
+- Xcode 12.0+
 - Swift 5.2
 
 ## Usage
@@ -27,12 +27,28 @@ $ pod try Feedbacks
 
 ## Installation
 
-### CocoaPods
-To install with [CocoaPods](http://cocoapods.org/), simply add this in your `Podfile`:
-```ruby
-use_frameworks!
-pod "Feedbacks"
+### Swift Package Manager
+
+The [Swift Package Manager](https://swift.org/package-manager/) is a tool for managing the distribution of Swift code. It’s integrated with the Swift build system to automate the process of downloading, compiling, and linking dependencies.
+
+To integrate `Feedbacks` into your Xcode project using Xcode 12, specify it in `File > Swift Packages > Add Package Dependency...`:
+
+```ogdl
+https://github.com/Ikloo/Feedbacks.git
 ```
+
+### CocoaPods:
+
+[CocoaPods](https://cocoapods.org) is a dependency manager for Cocoa projects. For usage and installation instructions, visit their website. To integrate `Feedbacks` into your Xcode project using CocoaPods, specify it in your `Podfile`:
+
+```ruby
+pod 'Feedbacks'
+```
+
+### Manually
+
+If you prefer not to use any of dependency managers, you can integrate `Feedbacks` into your project manually. Put `Sources/Feedbacks` folder in your Xcode project. Make sure to enable `Copy items if needed` and `Create groups`.
+
 
 ## Communication
 
