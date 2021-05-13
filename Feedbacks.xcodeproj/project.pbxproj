@@ -7,63 +7,39 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F0EAD7CB22D6B0670054C012 /* Feedbacks.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F0EAD7C122D6B0670054C012 /* Feedbacks.framework */; };
-		F0EAD7D022D6B0670054C012 /* FeedbacksTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7CF22D6B0670054C012 /* FeedbacksTests.swift */; };
-		F0EAD7D222D6B0670054C012 /* Feedbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = F0EAD7C422D6B0670054C012 /* Feedbacks.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		F0EAD7E222D6B0AF0054C012 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7E122D6B0AF0054C012 /* AppDelegate.swift */; };
-		F0EAD7E422D6B0AF0054C012 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7E322D6B0AF0054C012 /* ViewController.swift */; };
-		F0EAD7E722D6B0AF0054C012 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EAD7E522D6B0AF0054C012 /* Main.storyboard */; };
-		F0EAD7E922D6B0B00054C012 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F0EAD7E822D6B0B00054C012 /* Assets.xcassets */; };
-		F0EAD7EC22D6B0B00054C012 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F0EAD7EA22D6B0B00054C012 /* LaunchScreen.storyboard */; };
-		F0EAD80022D6B0E00054C012 /* Feedback+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7F122D6B0E00054C012 /* Feedback+UIButton.swift */; };
-		F0EAD80122D6B0E10054C012 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7F222D6B0E00054C012 /* Feedback.swift */; };
-		F0EAD80222D6B0E10054C012 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7F622D6B0E00054C012 /* TapticEngine.swift */; };
-		F0EAD80322D6B0E10054C012 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7F722D6B0E00054C012 /* SoundEngine.swift */; };
-		F0EAD80422D6B0E10054C012 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7F822D6B0E00054C012 /* Haptics.swift */; };
-		F0EAD80522D6B0E10054C012 /* HapticsFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7F922D6B0E00054C012 /* HapticsFeedbackStyle.swift */; };
-		F0EAD80622D6B0E10054C012 /* PositionFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7FA22D6B0E00054C012 /* PositionFeedbackStyle.swift */; };
-		F0EAD80722D6B0E10054C012 /* TransformFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7FB22D6B0E00054C012 /* TransformFeedbackStyle.swift */; };
-		F0EAD80822D6B0E10054C012 /* ColorFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7FC22D6B0E00054C012 /* ColorFeedbackStyle.swift */; };
-		F0EAD80922D6B0E10054C012 /* Feedback+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7FE22D6B0E00054C012 /* Feedback+UIView.swift */; };
-		F0EAD80A22D6B0E10054C012 /* Feedback+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F0EAD7FF22D6B0E00054C012 /* Feedback+UITextField.swift */; };
+		F086C686264D92C900A05329 /* Feedbacks.h in Headers */ = {isa = PBXBuildFile; fileRef = F086C674264D92C900A05329 /* Feedbacks.h */; };
+		F086C687264D92C900A05329 /* TapticEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C678264D92C900A05329 /* TapticEngine.swift */; };
+		F086C688264D92C900A05329 /* SoundEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C679264D92C900A05329 /* SoundEngine.swift */; };
+		F086C689264D92C900A05329 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C67A264D92C900A05329 /* Haptics.swift */; };
+		F086C68A264D92C900A05329 /* HapticsFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C67B264D92C900A05329 /* HapticsFeedbackStyle.swift */; };
+		F086C68B264D92C900A05329 /* PositionFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C67C264D92C900A05329 /* PositionFeedbackStyle.swift */; };
+		F086C68C264D92CA00A05329 /* TransformFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C67D264D92C900A05329 /* TransformFeedbackStyle.swift */; };
+		F086C68D264D92CA00A05329 /* ColorFeedbackStyle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C67E264D92C900A05329 /* ColorFeedbackStyle.swift */; };
+		F086C68E264D92CA00A05329 /* Feedback+UIView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C680264D92C900A05329 /* Feedback+UIView.swift */; };
+		F086C68F264D92CA00A05329 /* Feedback+UITextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C681264D92C900A05329 /* Feedback+UITextField.swift */; };
+		F086C690264D92CA00A05329 /* Feedback+UIButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C682264D92C900A05329 /* Feedback+UIButton.swift */; };
+		F086C691264D92CA00A05329 /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = F086C683264D92C900A05329 /* Info.plist */; };
+		F086C692264D92CA00A05329 /* Feedback.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C684264D92C900A05329 /* Feedback.swift */; };
+		F086C693264D92CA00A05329 /* Package.swift in Sources */ = {isa = PBXBuildFile; fileRef = F086C685264D92C900A05329 /* Package.swift */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		F0EAD7CC22D6B0670054C012 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = F0EAD7B822D6B0670054C012 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F0EAD7C022D6B0670054C012;
-			remoteInfo = Feedbacks;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
+		F086C674264D92C900A05329 /* Feedbacks.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Feedbacks.h; sourceTree = "<group>"; };
+		F086C678264D92C900A05329 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
+		F086C679264D92C900A05329 /* SoundEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
+		F086C67A264D92C900A05329 /* Haptics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		F086C67B264D92C900A05329 /* HapticsFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticsFeedbackStyle.swift; sourceTree = "<group>"; };
+		F086C67C264D92C900A05329 /* PositionFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionFeedbackStyle.swift; sourceTree = "<group>"; };
+		F086C67D264D92C900A05329 /* TransformFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformFeedbackStyle.swift; sourceTree = "<group>"; };
+		F086C67E264D92C900A05329 /* ColorFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorFeedbackStyle.swift; sourceTree = "<group>"; };
+		F086C680264D92C900A05329 /* Feedback+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feedback+UIView.swift"; sourceTree = "<group>"; };
+		F086C681264D92C900A05329 /* Feedback+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feedback+UITextField.swift"; sourceTree = "<group>"; };
+		F086C682264D92C900A05329 /* Feedback+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feedback+UIButton.swift"; sourceTree = "<group>"; };
+		F086C683264D92C900A05329 /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F086C684264D92C900A05329 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
+		F086C685264D92C900A05329 /* Package.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
 		F0EAD7C122D6B0670054C012 /* Feedbacks.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Feedbacks.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0EAD7C422D6B0670054C012 /* Feedbacks.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Feedbacks.h; sourceTree = "<group>"; };
-		F0EAD7C522D6B0670054C012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0EAD7CA22D6B0670054C012 /* FeedbacksTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FeedbacksTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0EAD7CF22D6B0670054C012 /* FeedbacksTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FeedbacksTests.swift; sourceTree = "<group>"; };
-		F0EAD7D122D6B0670054C012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0EAD7DF22D6B0AF0054C012 /* FeedbacksExample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FeedbacksExample.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		F0EAD7E122D6B0AF0054C012 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		F0EAD7E322D6B0AF0054C012 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		F0EAD7E622D6B0AF0054C012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		F0EAD7E822D6B0B00054C012 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		F0EAD7EB22D6B0B00054C012 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		F0EAD7ED22D6B0B00054C012 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		F0EAD7F122D6B0E00054C012 /* Feedback+UIButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feedback+UIButton.swift"; sourceTree = "<group>"; };
-		F0EAD7F222D6B0E00054C012 /* Feedback.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Feedback.swift; sourceTree = "<group>"; };
-		F0EAD7F622D6B0E00054C012 /* TapticEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TapticEngine.swift; sourceTree = "<group>"; };
-		F0EAD7F722D6B0E00054C012 /* SoundEngine.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SoundEngine.swift; sourceTree = "<group>"; };
-		F0EAD7F822D6B0E00054C012 /* Haptics.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
-		F0EAD7F922D6B0E00054C012 /* HapticsFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HapticsFeedbackStyle.swift; sourceTree = "<group>"; };
-		F0EAD7FA22D6B0E00054C012 /* PositionFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PositionFeedbackStyle.swift; sourceTree = "<group>"; };
-		F0EAD7FB22D6B0E00054C012 /* TransformFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TransformFeedbackStyle.swift; sourceTree = "<group>"; };
-		F0EAD7FC22D6B0E00054C012 /* ColorFeedbackStyle.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ColorFeedbackStyle.swift; sourceTree = "<group>"; };
-		F0EAD7FE22D6B0E00054C012 /* Feedback+UIView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feedback+UIView.swift"; sourceTree = "<group>"; };
-		F0EAD7FF22D6B0E00054C012 /* Feedback+UITextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Feedback+UITextField.swift"; sourceTree = "<group>"; };
-		F0EAD80C22D6B2450054C012 /* Feedbacks.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Feedbacks.podspec; sourceTree = "<group>"; };
+		F0EAD80C22D6B2450054C012 /* Feedbacks.podspec */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Feedbacks.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		F0EAD80E22D6B3610054C012 /* LICENSE */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
 		F0EAD80F22D6B3610054C012 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -76,31 +52,77 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		F0EAD7C722D6B0670054C012 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0EAD7CB22D6B0670054C012 /* Feedbacks.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0EAD7DC22D6B0AF0054C012 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F086C673264D92C900A05329 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				F086C69A264D931C00A05329 /* Feedbacks */,
+			);
+			path = Sources;
+			sourceTree = "<group>";
+		};
+		F086C675264D92C900A05329 /* FeedbackStyles */ = {
+			isa = PBXGroup;
+			children = (
+				F086C676264D92C900A05329 /* Haptics */,
+				F086C67B264D92C900A05329 /* HapticsFeedbackStyle.swift */,
+				F086C67C264D92C900A05329 /* PositionFeedbackStyle.swift */,
+				F086C67D264D92C900A05329 /* TransformFeedbackStyle.swift */,
+				F086C67E264D92C900A05329 /* ColorFeedbackStyle.swift */,
+			);
+			path = FeedbackStyles;
+			sourceTree = "<group>";
+		};
+		F086C676264D92C900A05329 /* Haptics */ = {
+			isa = PBXGroup;
+			children = (
+				F086C677264D92C900A05329 /* Engines */,
+				F086C67A264D92C900A05329 /* Haptics.swift */,
+			);
+			path = Haptics;
+			sourceTree = "<group>";
+		};
+		F086C677264D92C900A05329 /* Engines */ = {
+			isa = PBXGroup;
+			children = (
+				F086C678264D92C900A05329 /* TapticEngine.swift */,
+				F086C679264D92C900A05329 /* SoundEngine.swift */,
+			);
+			path = Engines;
+			sourceTree = "<group>";
+		};
+		F086C67F264D92C900A05329 /* Feedbacks */ = {
+			isa = PBXGroup;
+			children = (
+				F086C680264D92C900A05329 /* Feedback+UIView.swift */,
+				F086C681264D92C900A05329 /* Feedback+UITextField.swift */,
+				F086C682264D92C900A05329 /* Feedback+UIButton.swift */,
+			);
+			path = Feedbacks;
+			sourceTree = "<group>";
+		};
+		F086C69A264D931C00A05329 /* Feedbacks */ = {
+			isa = PBXGroup;
+			children = (
+				F086C67F264D92C900A05329 /* Feedbacks */,
+				F086C675264D92C900A05329 /* FeedbackStyles */,
+				F086C684264D92C900A05329 /* Feedback.swift */,
+				F086C674264D92C900A05329 /* Feedbacks.h */,
+				F086C683264D92C900A05329 /* Info.plist */,
+			);
+			path = Feedbacks;
+			sourceTree = "<group>";
+		};
 		F0EAD7B722D6B0670054C012 = {
 			isa = PBXGroup;
 			children = (
-				F0EAD80B22D6B2350054C012 /* Pod Metadata */,
-				F0EAD7C322D6B0670054C012 /* Feedbacks */,
-				F0EAD7CE22D6B0670054C012 /* FeedbacksTests */,
-				F0EAD7E022D6B0AF0054C012 /* FeedbacksExample */,
+				F0EAD80E22D6B3610054C012 /* LICENSE */,
+				F0EAD80F22D6B3610054C012 /* README.md */,
+				F086C685264D92C900A05329 /* Package.swift */,
+				F0EAD80C22D6B2450054C012 /* Feedbacks.podspec */,
+				F086C673264D92C900A05329 /* Sources */,
 				F0EAD7C222D6B0670054C012 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -109,94 +131,8 @@
 			isa = PBXGroup;
 			children = (
 				F0EAD7C122D6B0670054C012 /* Feedbacks.framework */,
-				F0EAD7CA22D6B0670054C012 /* FeedbacksTests.xctest */,
-				F0EAD7DF22D6B0AF0054C012 /* FeedbacksExample.app */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		F0EAD7C322D6B0670054C012 /* Feedbacks */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD7F222D6B0E00054C012 /* Feedback.swift */,
-				F0EAD7FD22D6B0E00054C012 /* Feedbacks */,
-				F0EAD7F322D6B0E00054C012 /* FeedbackStyles */,
-				F0EAD7C422D6B0670054C012 /* Feedbacks.h */,
-				F0EAD7C522D6B0670054C012 /* Info.plist */,
-			);
-			path = Feedbacks;
-			sourceTree = "<group>";
-		};
-		F0EAD7CE22D6B0670054C012 /* FeedbacksTests */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD7CF22D6B0670054C012 /* FeedbacksTests.swift */,
-				F0EAD7D122D6B0670054C012 /* Info.plist */,
-			);
-			path = FeedbacksTests;
-			sourceTree = "<group>";
-		};
-		F0EAD7E022D6B0AF0054C012 /* FeedbacksExample */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD7E122D6B0AF0054C012 /* AppDelegate.swift */,
-				F0EAD7E322D6B0AF0054C012 /* ViewController.swift */,
-				F0EAD7E522D6B0AF0054C012 /* Main.storyboard */,
-				F0EAD7E822D6B0B00054C012 /* Assets.xcassets */,
-				F0EAD7EA22D6B0B00054C012 /* LaunchScreen.storyboard */,
-				F0EAD7ED22D6B0B00054C012 /* Info.plist */,
-			);
-			path = FeedbacksExample;
-			sourceTree = "<group>";
-		};
-		F0EAD7F322D6B0E00054C012 /* FeedbackStyles */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD7F422D6B0E00054C012 /* Haptics */,
-				F0EAD7F922D6B0E00054C012 /* HapticsFeedbackStyle.swift */,
-				F0EAD7FA22D6B0E00054C012 /* PositionFeedbackStyle.swift */,
-				F0EAD7FB22D6B0E00054C012 /* TransformFeedbackStyle.swift */,
-				F0EAD7FC22D6B0E00054C012 /* ColorFeedbackStyle.swift */,
-			);
-			path = FeedbackStyles;
-			sourceTree = "<group>";
-		};
-		F0EAD7F422D6B0E00054C012 /* Haptics */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD7F522D6B0E00054C012 /* Engines */,
-				F0EAD7F822D6B0E00054C012 /* Haptics.swift */,
-			);
-			path = Haptics;
-			sourceTree = "<group>";
-		};
-		F0EAD7F522D6B0E00054C012 /* Engines */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD7F622D6B0E00054C012 /* TapticEngine.swift */,
-				F0EAD7F722D6B0E00054C012 /* SoundEngine.swift */,
-			);
-			path = Engines;
-			sourceTree = "<group>";
-		};
-		F0EAD7FD22D6B0E00054C012 /* Feedbacks */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD7F122D6B0E00054C012 /* Feedback+UIButton.swift */,
-				F0EAD7FE22D6B0E00054C012 /* Feedback+UIView.swift */,
-				F0EAD7FF22D6B0E00054C012 /* Feedback+UITextField.swift */,
-			);
-			path = Feedbacks;
-			sourceTree = "<group>";
-		};
-		F0EAD80B22D6B2350054C012 /* Pod Metadata */ = {
-			isa = PBXGroup;
-			children = (
-				F0EAD80E22D6B3610054C012 /* LICENSE */,
-				F0EAD80F22D6B3610054C012 /* README.md */,
-				F0EAD80C22D6B2450054C012 /* Feedbacks.podspec */,
-			);
-			name = "Pod Metadata";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +142,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0EAD7D222D6B0670054C012 /* Feedbacks.h in Headers */,
+				F086C686264D92C900A05329 /* Feedbacks.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -231,41 +167,6 @@
 			productReference = F0EAD7C122D6B0670054C012 /* Feedbacks.framework */;
 			productType = "com.apple.product-type.framework";
 		};
-		F0EAD7C922D6B0670054C012 /* FeedbacksTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0EAD7D822D6B0670054C012 /* Build configuration list for PBXNativeTarget "FeedbacksTests" */;
-			buildPhases = (
-				F0EAD7C622D6B0670054C012 /* Sources */,
-				F0EAD7C722D6B0670054C012 /* Frameworks */,
-				F0EAD7C822D6B0670054C012 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				F0EAD7CD22D6B0670054C012 /* PBXTargetDependency */,
-			);
-			name = FeedbacksTests;
-			productName = FeedbacksTests;
-			productReference = F0EAD7CA22D6B0670054C012 /* FeedbacksTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
-		};
-		F0EAD7DE22D6B0AF0054C012 /* FeedbacksExample */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = F0EAD7EE22D6B0B00054C012 /* Build configuration list for PBXNativeTarget "FeedbacksExample" */;
-			buildPhases = (
-				F0EAD7DB22D6B0AF0054C012 /* Sources */,
-				F0EAD7DC22D6B0AF0054C012 /* Frameworks */,
-				F0EAD7DD22D6B0AF0054C012 /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = FeedbacksExample;
-			productName = FeedbacksExample;
-			productReference = F0EAD7DF22D6B0AF0054C012 /* FeedbacksExample.app */;
-			productType = "com.apple.product-type.application";
-		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -278,13 +179,7 @@
 				TargetAttributes = {
 					F0EAD7C022D6B0670054C012 = {
 						CreatedOnToolsVersion = 10.2.1;
-						LastSwiftMigration = 1020;
-					};
-					F0EAD7C922D6B0670054C012 = {
-						CreatedOnToolsVersion = 10.2.1;
-					};
-					F0EAD7DE22D6B0AF0054C012 = {
-						CreatedOnToolsVersion = 10.2.1;
+						LastSwiftMigration = 1240;
 					};
 				};
 			};
@@ -302,8 +197,6 @@
 			projectRoot = "";
 			targets = (
 				F0EAD7C022D6B0670054C012 /* Feedbacks */,
-				F0EAD7C922D6B0670054C012 /* FeedbacksTests */,
-				F0EAD7DE22D6B0AF0054C012 /* FeedbacksExample */,
 			);
 		};
 /* End PBXProject section */
@@ -313,23 +206,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0EAD7C822D6B0670054C012 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0EAD7DD22D6B0AF0054C012 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0EAD7EC22D6B0B00054C012 /* LaunchScreen.storyboard in Resources */,
-				F0EAD7E922D6B0B00054C012 /* Assets.xcassets in Resources */,
-				F0EAD7E722D6B0AF0054C012 /* Main.storyboard in Resources */,
+				F086C691264D92CA00A05329 /* Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -340,65 +217,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F0EAD80122D6B0E10054C012 /* Feedback.swift in Sources */,
-				F0EAD80A22D6B0E10054C012 /* Feedback+UITextField.swift in Sources */,
-				F0EAD80722D6B0E10054C012 /* TransformFeedbackStyle.swift in Sources */,
-				F0EAD80822D6B0E10054C012 /* ColorFeedbackStyle.swift in Sources */,
-				F0EAD80622D6B0E10054C012 /* PositionFeedbackStyle.swift in Sources */,
-				F0EAD80222D6B0E10054C012 /* TapticEngine.swift in Sources */,
-				F0EAD80422D6B0E10054C012 /* Haptics.swift in Sources */,
-				F0EAD80022D6B0E00054C012 /* Feedback+UIButton.swift in Sources */,
-				F0EAD80922D6B0E10054C012 /* Feedback+UIView.swift in Sources */,
-				F0EAD80322D6B0E10054C012 /* SoundEngine.swift in Sources */,
-				F0EAD80522D6B0E10054C012 /* HapticsFeedbackStyle.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0EAD7C622D6B0670054C012 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0EAD7D022D6B0670054C012 /* FeedbacksTests.swift in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		F0EAD7DB22D6B0AF0054C012 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F0EAD7E422D6B0AF0054C012 /* ViewController.swift in Sources */,
-				F0EAD7E222D6B0AF0054C012 /* AppDelegate.swift in Sources */,
+				F086C693264D92CA00A05329 /* Package.swift in Sources */,
+				F086C68F264D92CA00A05329 /* Feedback+UITextField.swift in Sources */,
+				F086C68B264D92C900A05329 /* PositionFeedbackStyle.swift in Sources */,
+				F086C690264D92CA00A05329 /* Feedback+UIButton.swift in Sources */,
+				F086C68E264D92CA00A05329 /* Feedback+UIView.swift in Sources */,
+				F086C692264D92CA00A05329 /* Feedback.swift in Sources */,
+				F086C689264D92C900A05329 /* Haptics.swift in Sources */,
+				F086C68D264D92CA00A05329 /* ColorFeedbackStyle.swift in Sources */,
+				F086C687264D92C900A05329 /* TapticEngine.swift in Sources */,
+				F086C68C264D92CA00A05329 /* TransformFeedbackStyle.swift in Sources */,
+				F086C688264D92C900A05329 /* SoundEngine.swift in Sources */,
+				F086C68A264D92C900A05329 /* HapticsFeedbackStyle.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXTargetDependency section */
-		F0EAD7CD22D6B0670054C012 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = F0EAD7C022D6B0670054C012 /* Feedbacks */;
-			targetProxy = F0EAD7CC22D6B0670054C012 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		F0EAD7E522D6B0AF0054C012 /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0EAD7E622D6B0AF0054C012 /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		F0EAD7EA22D6B0B00054C012 /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				F0EAD7EB22D6B0B00054C012 /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		F0EAD7D322D6B0670054C012 /* Debug */ = {
@@ -535,7 +369,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Feedbacks/Info.plist;
+				INFOPLIST_FILE = Sources/Feedbacks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -561,7 +395,7 @@
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = Feedbacks/Info.plist;
+				INFOPLIST_FILE = Sources/Feedbacks/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -571,78 +405,6 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.ikloo.Feedbacks;
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F0EAD7D922D6B0670054C012 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FeedbacksTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ikloo.FeedbacksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F0EAD7DA22D6B0670054C012 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
-				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = FeedbacksTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ikloo.FeedbacksTests;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		F0EAD7EF22D6B0B00054C012 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AUNX4SBG5U;
-				INFOPLIST_FILE = FeedbacksExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ikloo.FeedbacksExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		F0EAD7F022D6B0B00054C012 /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = AUNX4SBG5U;
-				INFOPLIST_FILE = FeedbacksExample/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				PRODUCT_BUNDLE_IDENTIFIER = com.ikloo.FeedbacksExample;
-				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
@@ -665,24 +427,6 @@
 			buildConfigurations = (
 				F0EAD7D622D6B0670054C012 /* Debug */,
 				F0EAD7D722D6B0670054C012 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0EAD7D822D6B0670054C012 /* Build configuration list for PBXNativeTarget "FeedbacksTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0EAD7D922D6B0670054C012 /* Debug */,
-				F0EAD7DA22D6B0670054C012 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		F0EAD7EE22D6B0B00054C012 /* Build configuration list for PBXNativeTarget "FeedbacksExample" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				F0EAD7EF22D6B0B00054C012 /* Debug */,
-				F0EAD7F022D6B0B00054C012 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

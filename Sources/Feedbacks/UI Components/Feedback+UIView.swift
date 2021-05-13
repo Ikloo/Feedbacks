@@ -5,6 +5,8 @@
 //  Created by Kirill Budevich on 7/10/19.
 //
 
+import UIKit
+
 public extension Feedback where Base: UIView {
     func custom(_ feedback: FeedbackStyle...) {
         feedback.forEach({ $0.execute(in: base) })
